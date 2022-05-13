@@ -1,7 +1,7 @@
 # Raise the terrain
 
 <p align="center">
-	<img src="./picture/terrain.png" alt="Optional project Raise the terrain"/>
+	<img src="./pictures/terrain.png" alt="Optional project Raise the terrain"/>
 </p>
 
 ## Installation and Usage
