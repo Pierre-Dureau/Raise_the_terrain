@@ -39,6 +39,11 @@ void AltitudesGrid(int altitudes[8][8], char **argv)
 	int i = 0, j;
 
 	fp = fopen(argv[1], "r");
+	if (!fp)
+		{
+			printf("Can't open the file\n");
+			exit(EXIT_FAILURE);
+		}
 
 	while (fgets(line, 1000, fp) != NULL)
 	{
